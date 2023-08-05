@@ -1,0 +1,159 @@
+.Header {
+  background: #3F2305;
+  color: #F2EAD3;
+  border-radius: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.shoe {
+  background: #F2EAD3;
+}
+
+.productItem .overlays {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0.5%;
+  left: 5%;
+}
+.productItem .star {
+  margin-bottom: 20px;
+}
+.productItem .star i {
+  font-size: 18px;
+  letter-spacing: 0.2rem;
+}
+.productItem .star span {
+  color: #ab8a67;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: super;
+}
+.productItem .card {
+  background: #F5F5F5;
+  border: 2px solid #F5F5F5;
+  box-shadow: 0 0 15px 5px #DFD7BF;
+  border-radius: 60px;
+  overflow: hidden;
+}
+.productItem h4.card-title {
+  font-weight: 700;
+  color: #3F2305;
+}
+.productItem .card-subtitle {
+  color: #714516;
+  margin: 20px 20px 10px;
+}
+.productItem .card-text.price {
+  font-size: 35px;
+  font-weight: 700;
+}
+.productItem .addCart,
+.productItem .addDetail {
+  margin-left: 20px;
+  border-radius: 30px;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: all 0.2s linear;
+}
+.productItem .addCart {
+  background: #3F2305;
+  color: #DFD7BF;
+}
+.productItem .addCart:hover {
+  box-shadow: 0 0 40px 0 #714516;
+}
+.productItem .addDetail {
+  color: #3F2305;
+  background: #DFD7BF;
+}
+.productItem .addDetail:hover {
+  box-shadow: 0 0 10px 10px #DFD7BF;
+}
+
+.myCart {
+  background: #3F2305;
+  color: #DFD7BF;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  padding: 10px 20px;
+}
+.myCart:hover {
+  color: #3F2305;
+  background: #DFD7BF;
+}
+
+.itemOverlay {
+  background-image: linear-gradient(125deg, #714516, #a17240, #DFD7BF);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  opacity: 0.9;
+  box-shadow: 0 0 80px 1px #ab8a67;
+}
+
+.productDetail {
+  color: #3F2305;
+}
+.productDetail .Modal {
+  text-align: left;
+}
+.productDetail .Modal h4 {
+  font-weight: 500;
+}
+.productDetail .Modal .price {
+  font-size: 50px;
+  font-weight: 700;
+}
+.productDetail .Modal .divBtn {
+  text-align: right;
+}
+.productDetail .Modal .addCart {
+  background: #3F2305;
+  color: #DFD7BF;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  padding: 10px 60px;
+  text-align: end;
+  align-self: center;
+  font-size: 20px;
+}
+.productDetail .Modal .addCart:hover {
+  color: #3F2305;
+  background: #DFD7BF;
+}
+
+#cartModal .modal-content {
+  background: #DFD7BF;
+}
+#cartModal .modal-content .modal-header {
+  color: #3F2305;
+}
+#cartModal .table .tr {
+  --bs-table-color: #DFD7BF;
+  --bs-table-bg: #3F2305;
+  vertical-align: baseline;
+}
+#cartModal .btnPay {
+  background: #3F2305;
+  color: #DFD7BF;
+  transition: all 0.2s ease;
+  padding: 5px 30px;
+  text-align: end;
+  align-self: center;
+  font-size: 17px;
+}
+#cartModal .btnPay:hover {
+  opacity: 0.6;
+}
+
+.Footer {
+  background: #3F2305;
+  color: #F2EAD3;
+}/*# sourceMappingURL=style.css.map */
